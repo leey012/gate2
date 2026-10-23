@@ -1,7 +1,7 @@
 name: VPN Gate Node Check
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: 0 */4 * * *
 
 permissions:
   contents: read
